@@ -1,0 +1,39 @@
+# Midjourney Prompt Guide 
+### 1. Basic Prompt Structure 
+In Midjourney, prompt structure is simple and clear. Use words, phrases, or emojis to describe the subject and details of the desired image. 
+**Example**: A beautiful sunset over a mountain range in watercolor 
+- **Tip**: Use specific descriptive words and avoid long sentences. 
+### 2. Advanced Prompt Elements 
+Midjourney supports advanced prompts with multiple elements to increase variety and control. 
+- **Image URL**: Place the image URL at the beginning of the prompt to reference a style or theme. 
+- **Text Description**: Describe the details of the desired image. 
+- **Parameters**: Add these at the end of the prompt to control image aspect ratio, detail, etc. 
+**Example**: <image-url> A bustling cityscape at night, cyberpunk style --ar 16:9 --v 5 
+### 3. Keyword and Detail Selection 
+The choice of keywords in prompts directly affects the image quality: 
+- **Specific Descriptions**: For example, using gigantic instead of big is more precise. 
+- **Quantity and Collective Nouns**: Specific quantities work better than plural forms (e.g., three cats instead of cats). 
+- **Avoid Negative Descriptions**: Focus on what you want, rather than describing what to exclude. 
+### 4. Parameter List 
+Midjourney supports a variety of parameters to adjust image generation results. Place them at the end of the prompt: 
+| Parameter | Description | 
+|-----------------|--------------------------------------------------| 
+| **--ar** | Sets image aspect ratio, e.g., --ar 16:9 | 
+| **--v** | Selects Midjourney version, recommended --v 5 | 
+| **--q** | Sets quality, ranges from 0.25 to 2 | 
+| **--stylize** | Controls level of artistic style, from 0 to 1000| 
+| **--seed** | Controls randomness, making images more repeatable| 
+### 5. Key Elements in Descriptions 
+When designing prompts, use the following elements to make images more expressive: 
+- **Subject**: The main element of the image (e.g., person, animal, object). 
+- **Medium**: Like “watercolor,” “oil painting.” 
+- **Environment**: Settings such as “beach,” “forest.” 
+- **Lighting**: Such as “soft light,” “backlight.” 
+- **Color**: Specify tones or vibrancy. 
+- **Mood**: For example, “calm,” “energetic.” 
+- **Composition**: Choose close-up, wide shot, or specific perspective. 
+**Example**: A serene beach at sunset with vibrant colors, photo-realistic --ar 4:3 --stylize 700 
+### 6. Advanced Techniques 
+- **Combine Multiple Descriptions**: Mix multiple descriptions to create complex effects. 
+- **Use --seed Parameter**: Ensure image consistency with the same prompt. 
+- **Segmented Descriptions**: Helps in finer control, making the generated image match expectations more closely. 
